@@ -1,0 +1,16 @@
+[
+  {
+    "project_name": "IDFM",
+    "project_description": "IDFM is a project that aims to provide a comprehensive solution for managing and analyzing data in various formats.",
+    "github_link": "github.com/IDFM/IDFM",
+    "live_demo": "https://idfm.org",
+    "project_image": "https://idfm.org/logo.png"
+  },
+  {
+    "project_name": "SuperMorpion",
+    "project_description": "SuperMorpion is a fun and interactive game that allows users to play Morpion with advanced features.",
+    "github_link": "github.com/SuperMorpion/SuperMorpion",
+    "live_demo": "https://supermorpion.com",
+    "project_image": "https://supermorpion.com/logo.png"
+  }
+]

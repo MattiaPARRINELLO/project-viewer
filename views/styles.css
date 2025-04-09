@@ -1,0 +1,148 @@
+/* Définition générale des polices */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #d3b2a3; /* Couleur de fond proche du visuel */
+  color: #333;
+  font-family: "Sorts Mill Goudy", serif; /* Police principale de texte */
+}
+
+/* Titre principal */
+.page-title {
+  font-family: "RoxboroughCF", serif; /* Utilisation de la police RoxboroughCF */
+  font-size: 3rem;
+  text-align: center;
+  margin: 2rem 0;
+  color: #5a3a2e; /* Couleur en harmonie avec le fond */
+}
+
+/* Container des projets */
+.projects-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* Carte de projet */
+.project-card {
+  display: flex;
+  border-radius: 8px;
+  overflow: hidden;
+  padding: 1rem;
+  gap: 1rem;
+  align-items: center;
+}
+
+.light-card {
+  background-color: #f6e7d8; /* Carte plus claire */
+}
+
+.dark-card {
+  background-color: #8d5a47; /* Carte plus sombre */
+  color: #fff; /* Texte en blanc pour contraster */
+}
+
+.project-image img {
+  width: 120px;
+  height: auto;
+  border-radius: 4px;
+}
+
+.project-image {
+  width: 150px;
+}
+
+/* Contenu de la carte */
+.project-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+/* En-tête de la carte (titre + date) */
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Titre du projet */
+.project-title {
+  font-family: "Montserrat", sans-serif; /* Montserrat pour le titre */
+  font-size: 1.25rem;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+/* Date du projet */
+.project-date {
+  background-color: #fff;
+  color: #333;
+  border-radius: 20px;
+  padding: 0.25rem 0.75rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.85rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dark-card .project-date {
+  background-color: #fff;
+  color: #333;
+}
+
+.light-card .project-date {
+  background-color: #5a3a2e;
+  color: #f6e7d8;
+}
+
+/* Liens GitHub + "En savoir plus" */
+.project-links {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.project-links a {
+  color: inherit; /* Hérite la couleur du parent (pour s'adapter carte claire/foncée) */
+  text-decoration: underline;
+}
+
+/* Description du projet */
+.project-description {
+  font-size: 0.95rem;
+  line-height: 1.4;
+  margin: 0;
+}
+
+/* Bouton "Démo en ligne" */
+.demo-button {
+  align-self: flex-start;
+  background-color: #5a3a2e;
+  color: #f6e7d8;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 4px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 0.9rem;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.light-card .demo-button {
+  background-color: #5a3a2e;
+  color: #f6e7d8;
+}
+
+.dark-card .demo-button {
+  background-color: #fff;
+  color: #8d5a47;
+}
+
+.demo-button:hover {
+  filter: brightness(0.9);
+}
